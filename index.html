@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+         crossorigin="anonymous"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+      />
+      <link
+         href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <title>Portfolio</title>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1 fixed-top">
+         <div class="container">
+            <a href="#" class="navbar-brand"
+               ><img src="img/html-logo.png" width="50"
+            /></a>
+
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navmenu"
+            >
+               <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#projects" class="nav-link">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#education" class="nav-link">Education</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#aboutme" class="nav-link">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#faq" class="nav-link">FAQ</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <!-- Showcase -->
+      <section
+         class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+      >
+         <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+               <div>
+                  <h3>Hi, Im Eric</h3>
+                  <h1>
+                     Aspiring <span class="text-warning"> Web Developer </span>
+                  </h1>
+                  <p class="lead my-4">
+                     Striving to become a Web Developer. I take pride in my
+                     work.
+                  </p>
+                  <button
+                     class="btn btn-secondary btn-lg"
+                     data-bs-toggle="modal"
+                     data-bs-target="#contactme"
+                  >
+                     Contact Me
+                  </button>
+               </div>
+               <img
+                  class="img-fluid w-50 d-none d-sm-block"
+                  src="img/eric-cartoon.png"
+                  alt=""
+               />
+            </div>
+         </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="p-5">
+         <div class="container">
+            <div class="row text-center g-4">
+               <div>
+                  <h2 class="align-items-center justify-content-between pt-3">
+                     Projects
+                  </h2>
+               </div>
+               <div class="col-md">
+                  <div class="card bg-dark text-light">
+                     <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                           <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Project 1</h3>
+                        <p class="card-text pb-4">Project 1 Information</p>
+                        <a href="#" class="btn btn-secondary">Open Project</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md">
+                  <div class="card bg-secondary text-light">
+                     <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                           <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Project 2</h3>
+                        <p class="card-text pb-4">Project 2 Information</p>
+                        <a href="#" class="btn btn-dark">Open Project</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md">
+                  <div class="card bg-dark text-light">
+                     <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                           <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Project 3</h3>
+                        <p class="card-text pb-4">Project 3 Information</p>
+                        <a href="#" class="btn btn-secondary">Open Project</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="p-5">
+         <div class="container">
+            <div class="row align-items-center justify-content-between">
+               <div class="col-md">
+                  <img
+                     src="img/HTML_Course_Completed.png"
+                     class="img-fluid"
+                     alt=""
+                  />
+               </div>
+               <div class="col-md p-5">
+                  <h2>Education</h2>
+                  <p class="lead">
+                     Nucamp 4 Week Web Development Fundamentals Course Completed
+                     January 14, 2025
+                  </p>
+                  <p>
+                     Week 1: Tech Week + Intro to HTML <br />
+                     Week 2: Intro to CSS <br />
+                     Week 3: Introduction to Bootstrap <br />
+                     Week 4: Advanced Bootstrap
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- About Me -->
+      <section id="aboutme" class="pt-5 bg-dark text-light">
+         <div class="container">
+            <div class="row align-items-center justify-content-between">
+               <div class="col-md p-5">
+                  <h2>About Me</h2>
+                  <p class="lead">
+                     I'm and currently 37 years old living in Renton, Washington
+                     with my wife and amazing 1 and a half year old son who are
+                     my world. I'm striving to become a web developer and would
+                     appreciate you giving me the opportunity to help you with
+                     your project!
+                  </p>
+                  <a
+                     href="https://cash.app/$eacevedo0302/5.00/"
+                     class="btn btn-light mt-3"
+                  >
+                     Buy me a Coffee!
+                  </a>
+               </div>
+               <div class="col-md">
+                  <img src="img/eric-cartoon2.png" class="img-fluid" />
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Question Accordion -->
+      <section id="faq" class="p-5">
+         <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+               <!-- Item 1 -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#question-one"
+                     >
+                        What boot camp did you take?
+                     </button>
+                  </h2>
+                  <div
+                     id="question-one"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#questions"
+                  >
+                     <div class="accordion-body">
+                        The Web Development Fundamentals boot camp from
+                        Nucamp.co. It is a 4 week course that teaches beginners
+                        about HTML, CSS, and Bootstrap.
+                     </div>
+                  </div>
+               </div>
+               <!-- Item 2 -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#question-two"
+                     >
+                        How much does it cost to take?
+                     </button>
+                  </h2>
+                  <div
+                     id="question-two"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#questions"
+                  >
+                     <div class="accordion-body">
+                        Each boot camp varies in prices. Go to
+                        <a href="https://www.nucamp.co">Nucamp.co</a> to find
+                        out how much the boot camp course you would like to take
+                        will cost!
+                     </div>
+                  </div>
+               </div>
+               <!-- Item 3 -->
+               <div class="accordion-item">
+                  <h2 class="accordion-header">
+                     <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#question-four"
+                     >
+                        How Do I sign up?
+                     </button>
+                  </h2>
+                  <div
+                     id="question-four"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#questions"
+                  >
+                     <div class="accordion-body">
+                        Go to
+                        <a href="https://www.nucamp.co">Nucamp.co</a> to find
+                        out how!
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="p-5 bg-dark text-white text-center position-relative">
+         <div class="container">
+            <div>
+               <a href="#"><i class="bi bi-twitter text-light mx-1"></i></a>
+               <a href="#"><i class="bi bi-facebook text-light mx-1"></i></a>
+               <a href="#"><i class="bi bi-linkedin text-light mx-1"></i></a>
+               <a href="#"><i class="bi bi-instagram text-light mx-1"></i></a>
+            </div>
+            <p class="lead">Copyright &copy; 2025 Eric | All Rights Reserved</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+               <i class="bi bi-arrow-up-circle h1 text-light"></i>
+            </a>
+         </div>
+      </footer>
+
+      <!-- Modal -->
+      <div
+         class="modal fade"
+         id="contactme"
+         tabindex="-1"
+         aria-labelledby="contactLabel"
+         aria-hidden="true"
+      >
+         <div class="modal-dialog">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="contactLabel">Contact Me</h5>
+                  <button
+                     type="button"
+                     class="btn-close"
+                     data-bs-dismiss="modal"
+                     aria-label="Close"
+                  ></button>
+               </div>
+               <div class="modal-body">
+                  <p class="lead">
+                     Fill out this form and I will get back to you!
+                  </p>
+                  <form>
+                     <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                           First Name:
+                        </label>
+                        <input
+                           type="text"
+                           class="form-control"
+                           id="first-name"
+                        />
+                     </div>
+                     <div class="mb-3">
+                        <label for="last-name" class="col-form-label"
+                           >Last Name:</label
+                        >
+                        <input
+                           type="text"
+                           class="form-control"
+                           id="last-name"
+                        />
+                     </div>
+                     <div class="mb-3">
+                        <label for="email" class="col-form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" />
+                     </div>
+                     <div class="mb-3">
+                        <label for="phone" class="col-form-label">Phone:</label>
+                        <input type="tel" class="form-control" id="phone" />
+                     </div>
+                  </form>
+               </div>
+               <div class="modal-footer">
+                  <button
+                     type="button"
+                     class="btn btn-secondary"
+                     data-bs-dismiss="modal"
+                  >
+                     Close
+                  </button>
+                  <button type="button" class="btn btn-primary">Submit</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+         crossorigin="anonymous"
+      ></script>
+   </body>
+</html>
